@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header1 {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(243,243,243);
+  color: black;
+}
+
+.container-header1 > a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(24,109,238);
+}
+
+.container-header2 {
+  height: 60px;
+  background-color: white;
+  color: rgb(24,109,238);
+}
+
+.images-container1 {
+  width: 100%;
+  background-image: url(/images/teal-green.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+
+}
+
+.card-img {
+  width: 100%;
+  height: 700px;
+}
+
+.images-container1 {
+  overflow: hidden;
+}
+
+.images-container2 {
+  width: 100%;
+  background-image: url(/images/blue-green-d.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  overflow: hidden;
+}
+
+.container-mainfooter {
+  width: 100%;
+  height: 400px;
+  color: white;
+  line-height: 35px;
+  background-image: url(./images/microsoftteams-image-15.jpeg.webp);
+  background-repeat: no-repeat;
+}
+
+.container-mainfooter >.btn {
+  background-color: white;
+  color: blue;
+}
+
+.card, .card > .card-img {
+  border: hidden !important;
+  border-radius: 0% !important;
+}
+
+.custom-container {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.images-container-img {
+  flex: 33%;
+  margin-right: 20px !important;
+}
+
+.images-container-img > img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.container-paragraph > .paragraph-image {
+  width: 100%;
+  height: 500px;
+  background-image: url(./images/earth_wind_fire_blog_lead_image.2e16d0ba.fill-1000x560.jpg.webp);
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.footer4-item{
+  margin-right: 30px;
+}
+
+.footer3-item{
+  margin-right: 30px;
+  font-size: 20px;
+  color: blue;
+}
+
+.nokia-footer2 > div:first-child {
+  flex: 0 0 33%;
+}
+
+.nokia-footer2 > div:nth-child(2) {
+  flex: 0 0 50%;
+}
+
+.nokia-footer2 > div:nth-child(2) > p {
+  flex: 0 0 33%;
+}
+
+.nokia-footer3 > div {
+  flex: 0 0 50%; 
+}
+
+.nokia-footer3 > .right > div:first-child {
+  margin: 0 25px 0 50px !important;
+}
+
+.nokia-footer3 > .right > div:nth-child(2) {
+  flex: 0 0 50%; 
+}
+
+.nokia-footer3 > .right > div:nth-child(2) > div {
+  margin: 15px;
+}
+
+.social-links {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000; 
+  border-radius: 50%;
+  color: inherit;
+}
+
+.social-links > a {
+  color: inherit;
+}
